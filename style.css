@@ -135,6 +135,11 @@ main {
 	width: 230px;
 	float: left;
 }
+.sidebar-headline, .instagram-headline, .catagories-headline {
+    border-bottom: 8px solid #f7f7f7;
+    text-align: center;
+    line-height: 0.6;
+}
 .sidebar-contents {
 	padding: 50px 0;
 }
@@ -185,4 +190,61 @@ footer {
 }
 .footer-text{
 	color: #fff;
+}
+@media screen and (max-width: 425px) {
+	header {
+		width: 100%;
+	}
+	.nav-list {
+		width: 100%;
+	}
+	.nav-list-item{
+		width: 20%;
+	}
+	.social {
+		width: 35%;
+		right: 0px;
+	}
+	.main-visual-content {
+		width: 100%;
+	}
+	.blog-headline {
+		width: 100%
+	}
+	main {
+		width: 100%;
+	}
+	.blog {
+		width: 100%;
+		float: none;
+	}
+	.sidebar {
+		width: 100%;
+	}
+	.blog-box {
+		width: 100%;
+	}
+	.blog-image {
+		width: 52%
+	}
+	.blog-text {
+		width: 48%
+	}
+	.sidebar-headline, .instagram-headline, .catagories-headline {
+		width: 100%;
+	}
+	.popular-text, .catagories-text {
+		width: 100%;
+		text-align: center;
+	}
+	.instagram-box {
+		width: 48%;
+		padding-top: 48%;
+	}
+	.instagram-box:nth-child(odd) {
+		margin-right: 4%;
+	}
+	.margin-bottom {
+		:50px;
+	}
 }
