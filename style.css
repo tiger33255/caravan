@@ -15,8 +15,12 @@ clearfixは下記のコードをCSSに記述し、floatされた要素の親要�
 	display: block;
 	clear: both;
 }
+header,nav,h2, .main-visual, footer {
+	font-family: chalkduster, "bradley Hand",Courier,"Segoe Print", sans-serif;
+}
 /*padding or marginのサイズ指定は上下［px]．左右[0]を意味する*/
 header {
+	position: relative;
 	width: 90%;
 	padding: 15px 0;
 	margin: 0 auto;
@@ -25,6 +29,15 @@ header {
 /*headerタグ内のheadlineクラスにのみに反映される*/
 header .headeline{
 	font-size: 32px;
+}
+.social {
+	position: absolute;
+	top: 22px;
+	right: 22px;
+}
+.social i {
+	display: inline-block;
+	margin-left: 20px;
 }
 .nav-list {
 	text-align: center;
